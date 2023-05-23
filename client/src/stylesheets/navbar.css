@@ -1,0 +1,6 @@
+.logo-image {
+  width: 120px; /* Adjust the desired width */
+  height: 60px; /* Maintain aspect ratio */
+  margin-left: 20px;
+  border-radius: 15px;
+}

@@ -1,0 +1,19 @@
+body {
+  overflow-y: hidden;
+}
+.home-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f0f0f0 50%, #aed6f1 50%);
+}
+
+.home-div {
+  text-align: center;
+}
+
+p {
+  color: blue;
+  font-weight: bold;
+}

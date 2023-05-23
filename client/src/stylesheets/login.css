@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content {
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 60%;
+  padding: 40px;
+}
+
+.login-title {
+  display: inline;
+  margin-left: 360px;
+}
+
+.login-form {
+  padding: 20px;
+  margin-left: 15px;
+}
+
+.login-container {
+  display: flex;
+}
+
+.login-field {
+  width: 50%;
+}
+
+.login-form {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.login-group {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.login-group:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.login-group input {
+  padding: 1.5px;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+
+.login-button input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  width: 120px;
+  color: white;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.login-image-container {
+  text-align: center;
+}
+
+.login-image-container img {
+  width: 60%;
+  height: 50%;
+}
+
+.login-image-link {
+  color: black;
+}
